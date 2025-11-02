@@ -30,4 +30,4 @@ public class BookingDates {
     {
         return "ClassPojo [checkin = "+checkin+", checkout = "+checkout+"]";
     }
-}
+};
