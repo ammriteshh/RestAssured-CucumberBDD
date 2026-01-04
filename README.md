@@ -1,19 +1,39 @@
 # RestAssured-CucumberBDD
 
-## **Overview:**
-<<<<<<< HEAD
-API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.  This API framework is developed using REST Assured and Cucumber.  REST Assured is a Java library that provides a domain-specific language (DSL) for writing powerful, maintainable tests for RESTful APIs. Cucumber is an open source library, which supports behavior driven development. To be more precise, Cucumber can be defined as a testing framework, driven by plain English text. It serves as documentation, automated tests, and a development aid – all in one.
+## 🚀 Overview
 
-For Demo purpose all the test cases are done on [Restful-booker](https://restful-booker.herokuapp.com/apidoc/index.html).
+**RestAssured-CucumberBDD** is a Java-based API automation framework that uses **Rest Assured** for REST API testing and **Cucumber BDD** for behavior-driven test scenarios.  
+This project targets the **Restful Booker** demo APIs, demonstrating how to structure, automate, and execute API tests using a BDD workflow. :contentReference[oaicite:1]{index=1}
 
-### **Some of the key features of this framework:**
+---
 
-1. It generates Extent report with all the step details. Report will be generated both HTML & PDF file format.
-2. Generates execution logs, with detailed request and response details.
-3. Feature file has examples of reading request details from json and excel file.
-4. This also has an example to validate response body using json schema and java pojo classes.
-5. Test execution can be triggered form command line. 
-6. Easy integration to CI/CD pipeline.
-=======
-API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.  This API framework is developed using REST Assured and Cucumber.  REST Assured is a Java library that provides a domain-specific language (DSL) for writing powerful, maintainable tests for RESTful APIs. Cucumber is an open source library, which supports behavior driven development. To be more precise, Cucumber can be defined as a testing framework, driven by plain English text. It serves as documentation, automated tests, and a development aid, all in one.
->>>>>>> 2cb0dfea56d0fa673fb3c8a0ff1843f3edee50dc
+## 🧠 Key Features
+
+✔ API test automation using **Rest Assured**  
+✔ BDD scenarios written in **Cucumber & Gherkin**  
+✔ Clear separation of test steps and implementation  
+✔ Easy to extend for additional endpoints and scenarios  
+✔ Standards-based Maven project structure
+
+---
+
+## ⚙️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Java       | Programming language |
+| Rest Assured | REST API testing |
+| Cucumber BDD | BDD scenarios with Gherkin syntax |
+| Maven      | Build & dependency management |
+| Gherkin    | Write plain-English test cases |
+
+---
+
+## 📁 Project Structure
+
+├── src/
+│ ├── main/java # Step definitions & utils
+│ └── test/java # Feature files
+├── .github/ # GitHub workflows
+├── pom.xml # Maven configuration
+└── README.md
